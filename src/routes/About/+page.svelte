@@ -24,7 +24,7 @@
   </section>
 
   <style>
-    /* .logo {
+    .logo {
     color: white;
     padding: 10px;
     display: flex;
@@ -33,7 +33,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-} */
+}
 
         * {
     margin: 0px;
