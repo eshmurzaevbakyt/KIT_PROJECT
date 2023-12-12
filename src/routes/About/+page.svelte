@@ -23,6 +23,14 @@
   </section>
 
   <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    .benefit {
+        height: 100%
+    }
         svg {
     height: 200px;
     width: 200px;
