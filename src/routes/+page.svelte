@@ -80,3 +80,293 @@
     </script> -->
     <script src="./assets/main.js"></script>
 </body>
+
+<style>
+    * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 100px;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    align-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://secretcompass.com/wp-content/uploads/2018/01/Jungle-Rot.jpg');                
+    background-size: cover;
+    background-position: center;
+}
+
+.img-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 30px;
+    display: block;
+    max-width: 400px;
+}
+
+
+.hero div {
+    font-size: 28px;
+    padding: 40px 20px 40px 20px;
+}
+
+.menu-items {
+        display: flex; 
+        padding: 0px 20px;
+        gap: 20px; 
+    }
+
+    .menu-item {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        position: relative;
+    }
+    .menu-item span {
+        transition: background-color 0.3s;
+    }
+    .menu-item:hover span {
+    background-color: #fff;
+    color: #444;
+    }
+
+    .learn-button {
+        padding: 10px 20px; 
+        background-color: #333;
+        color: #fff;
+        border: none; 
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .learn-button:hover {
+    background-color: #555;
+    }
+
+    /* .buy-button {
+        padding: 10px 20px; 
+        background-color: #333;
+        color: #fff;
+        border: none; 
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .buy-button:hover {
+    background-color: #555;
+    } */
+
+    svg {
+    height: 200px;
+    width: 200px;
+    }
+
+#benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    margin-top: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/photo/2017/10/18/16/08/wolves-2864647_1280.jpg');
+}
+
+#benefits p {
+    font-size: 25px;
+}
+
+
+#benefits h2 {
+    align-self: center;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+#benefits h3 {
+    align-self: center;
+    font-size: 30px;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    color: aliceblue;
+    margin: 20px;
+    
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    color: aliceblue;
+
+}
+#company-info h3 {
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    #company-info p {
+        color: #fff;
+        display: block;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .content { 
+        margin-top: 80px;
+    }
+    .burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.burger-menu div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.menu {
+    display: flex;
+    gap: 100px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 20px;
+}
+
+.hamburger {
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.hamburger .bar, .hamburger:before, .hamburger:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0px;
+    transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar {
+    opacity: 0;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    z-index: 98;
+    background-color: #12002F;
+    padding-top: 120px;
+    transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+    left: 0; 
+}
+
+.mobile-nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 16px;
+    background-color: #1f103F;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-nav a:hover {
+    background-color: #24104f;
+
+}
+
+@media (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+</style>
