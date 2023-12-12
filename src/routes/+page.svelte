@@ -8,7 +8,8 @@
             <a class="menu-item" href="https://www.takecareof.com/articles/best-vitamins-supplements-for-men"><span>V</span><span>i</span><span>t</span><span>a</span><span>m</span><span>i</span><span>n</span><span>s</span></a>
             <a class="menu-item" href="https://www.drugwatch.com/testosterone/"><span>M</span><span>e</span><span>d</span><span>i</span><span>c</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>s</span></a>
             <a class="menu-item" href="https://www.muscleandstrength.com/workouts/muscle-strength-full-body-workout-routine"><span>T</span><span>&</span><span>M</span><span>S</span><span>e</span><span>s</span><span>s</span><span>i</span><span>o</span><span>n</span></a>
-           </nav>
+           <a class="menu-item" href="Contacts">Contacts</a>
+        </nav>
            <button class="hamburger">
             <div class="bar"></div>
            </button>
