@@ -1,8 +1,8 @@
 <!-- Contacts.svelte -->
 <script>
     export let contacts = [
-      { name: 'Bakytbek Eshmurzaev', email: 'eshmurzaev_b@auca.kg', phone: '555-1234', address: 'https://go.2gis.com/4mqjp' },
-      { name: 'Jane Doe', email: 'jane@example.com', phone: '555-5678', address: '456 Oak St, Town' }
+      { name: 'Bakytbek Eshmurzaev', email: 'eshmurzaev_b@auca.kg', phone: '555-1234', address: 'Исы Ахунбаева, 133' },
+      { name: '-', email: '-', phone: '-', address: '-' }
     ];
   </script>
   
@@ -31,7 +31,7 @@
         <p>Phone: {contact.phone}</p>
         <p>
             Address: 
-            <a href={`https://go.2gis.com/4mqjp=${encodeURIComponent(contact.address)}`} class="address-link" target="_blank" rel="noopener noreferrer">
+            <a href={`https://go.2gis.com/4mqjp`} class="address-link" target="_blank" rel="noopener noreferrer">
               {contact.address}
             </a>
           </p>
