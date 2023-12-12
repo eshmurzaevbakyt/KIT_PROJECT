@@ -1,3 +1,4 @@
+<div class="logo" href="#ll">IW</div>
 <section id="benefits">
     <h2>Why choose Instinctive Wellness Co?</h2>
     <div class="benefit">
@@ -23,6 +24,18 @@
   </section>
 
   <style>
+    .logo {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 100px;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
         * {
     margin: 0px;
     padding: 0px;
