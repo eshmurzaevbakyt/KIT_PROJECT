@@ -25,7 +25,6 @@
 
   <style>
     .logo {
-    background-color: black;
     color: white;
     padding: 10px;
     display: flex;
