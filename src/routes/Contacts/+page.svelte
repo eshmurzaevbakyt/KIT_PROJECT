@@ -29,7 +29,12 @@
         <h2>{contact.name}</h2>
         <p>Email: {contact.email}</p>
         <p>Phone: {contact.phone}</p>
-        <p>Address: {contact.address}</p>
+        <p>
+            Address: 
+            <a href={`https://go.2gis.com/4mqjp=${encodeURIComponent(contact.address)}`} class="address-link" target="_blank" rel="noopener noreferrer">
+              {contact.address}
+            </a>
+          </p>
       </div>
     {/each}
   </div>
