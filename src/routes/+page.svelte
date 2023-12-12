@@ -76,7 +76,7 @@
         function toggleMenu() {
             var menu = document.querySelector('.hamburger');
             menu.classList.toggle('show');
-        } -->
-    </script>
+        }
+    </script> -->
     <script src="./assets/main.js"></script>
 </body>
