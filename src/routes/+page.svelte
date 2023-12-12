@@ -179,57 +179,7 @@ footer {
     background-color: #555;
     } */
 
-    svg {
-    height: 200px;
-    width: 200px;
-    }
 
-#benefits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
-    margin-top: 0;
-    padding-left: 200px;
-    padding-right: 200px;
-    color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/photo/2017/10/18/16/08/wolves-2864647_1280.jpg');
-}
-
-#benefits p {
-    font-size: 25px;
-}
-
-
-#benefits h2 {
-    align-self: center;
-    font-size: 60px;
-    text-align: center;
-    padding-top: 75px;
-    padding-bottom: 50px;
-}
-
-#benefits h3 {
-    align-self: center;
-    font-size: 30px;
-}
-
-.benefit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    gap: 50px;
-    color: aliceblue;
-    margin: 20px;
-    
-}
-
-.reverse {
-    flex-direction: row-reverse;
-    color: aliceblue;
-
-}
 #company-info h3 {
         color: #fff;
         margin-bottom: 10px;
